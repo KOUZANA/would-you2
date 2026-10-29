@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A little love note with a very important question."
+    />
+    <title>A Little Love Note</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="particle-background" aria-hidden="true"></div>
+    <main class="invitation-page" data-recipient-email="kouzanay0@gmail.com">
+      <header class="page-header">
+        <span class="wordmark"><span class="wordmark-heart">&#x2665;</span> a little love note</span>
+        <span class="header-tag">MADE JUST FOR YOU</span>
+      </header>
+
+      <div class="invitation-layout">
+        <span class="orbit-note orbit-note--left">&#x2726;&nbsp; you + me</span>
+        <section class="hero">
+          <div class="hero-art" aria-hidden="true">
+            <span class="hero-art-heart">&#x2665;</span>
+            <span class="hero-art-spark hero-art-spark--one">&#x2726;</span>
+            <span class="hero-art-spark hero-art-spark--two">&#x2727;</span>
+          </div>
+
+          <div class="confirmation-content" data-view="invitation">
+            <p class="eyebrow">I HAVE A VERY IMPORTANT QUESTION</p>
+            <h1>
+              Will you start
+              <span class="title-second-line">dating <em>Younes?</em></span>
+            </h1>
+            <p class="hero-copy">
+              I can think of a million lovely things to do.<br />
+              The best part would be doing them with you.
+            </p>
+            <div class="hero-buttons">
+              <button class="hero-button hero-button--yes" type="button" data-action="yes">
+                Yes, absolutely <span aria-hidden="true">&#x2665;</span>
+              </button>
+              <button class="hero-button hero-button--maybe" type="button" data-action="no">
+                Sorry, but no <span aria-hidden="true">&#x2715;</span>
+              </button>
+            </div>
+            <p class="tiny-note">
+              P.S. there are no wrong answers (but I&rsquo;m hoping for one)
+              <span aria-hidden="true">&#x2661;</span>
+            </p>
+          </div>
+
+          <div class="confirmation-content" data-view="confirmation" hidden>
+            <p class="eyebrow">JUST MAKING SURE</p>
+            <h1>Are you <em>sure?</em></h1>
+            <p class="hero-copy">
+              A yes means a lovely date with me, Younes.<br />
+              Still want to say yes?
+            </p>
+            <div class="hero-buttons">
+              <button class="hero-button hero-button--yes" type="button" data-action="confirm">
+                Yes, I&rsquo;m sure <span aria-hidden="true">&#x2665;</span>
+              </button>
+              <button class="hero-button hero-button--maybe" type="button" data-action="no">
+                No, I changed my mind <span aria-hidden="true">&#x2715;</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="confirmation-content" data-view="question" hidden>
+            <p class="eyebrow">ONE LAST LITTLE QUESTION</p>
+            <h1>What do you like <em>most?</em></h1>
+            <p class="hero-copy">What&rsquo;s the thing you like most about me?</p>
+            <form class="answer-form">
+              <label for="favorite-thing">Your answer</label>
+              <textarea
+                id="favorite-thing"
+                name="favoriteThing"
+                maxlength="1000"
+                required
+                rows="4"
+              ></textarea>
+              <button class="hero-button hero-button--yes" type="submit">
+                Send my answer <span aria-hidden="true">&#x2665;</span>
+              </button>
+              <p class="form-message" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="confirmation-content" data-view="thanks" hidden>
+            <p class="eyebrow">THANK YOU, SWEETHEART</p>
+            <h1>That made me <em>smile!</em></h1>
+            <p class="hero-copy" role="status" aria-live="polite"></p>
+          </div>
+        </section>
+        <span class="orbit-note orbit-note--right">A DATE?&nbsp; &#x273F;</span>
+      </div>
+
+      <footer class="page-footer">
+        <span>THE BEGINNING OF SOMETHING SERIOUS</span>
+        <span class="footer-doodle" aria-hidden="true">
+          &#x2665; &nbsp; &#x2665; &nbsp; &#x2665;
+        </span>
+        <span>WITH LOVE, ALWAYS</span>
+      </footer>
+    </main>
+  </body>
+</html>
